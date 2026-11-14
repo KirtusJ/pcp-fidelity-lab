@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import sys
+from io import BytesIO
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from zipfile import BadZipFile, ZipFile, ZipInfo
@@ -65,9 +66,14 @@ def directory_files():
 
 
 def zip_files(path, release):
-    # Check names and uncompressed sizes before reading any payload.
+    # Authenticate the exact headers, payloads and trailer before any ZIP parsing.
+    # Reading only the pinned length plus one also bounds oversized inputs.
+    pin = release["canonical_zip"]
+    with path.open("rb") as source:
+        raw = source.read(pin["bytes"] + 1)
+    check_bytes(raw, pin, "canonical ZIP")
     manifest = {item["path"]: item for item in release["files"]}
-    with ZipFile(path) as archive:
+    with ZipFile(BytesIO(raw)) as archive:
         names = archive.namelist()
         require(len(names) == len(set(names)), "ZIP repeats a member name")
         exact_inventory(set(names), set(manifest), "ZIP")
