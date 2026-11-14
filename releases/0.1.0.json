@@ -1,0 +1,86 @@
+{
+  "name": "pcp-fidelity-audit-lab",
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 928,
+      "sha256": "8ba9e8e7c107df77fa426c4b4a16209a760f5e3f3ac0f8bcd2720879155e63dc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1315,
+      "sha256": "967d14f2965d655bfc8a005fa958ee132504fa4eadb7fdada688eeafde1c7d5a"
+    },
+    {
+      "path": "plugin.json",
+      "bytes": 1045,
+      "sha256": "1d05bbf84b8f87eb3278b799f2e8ae9d80b4006008a6152491f7058309b72679"
+    },
+    {
+      "path": "references/governing/pcp_core/contracts/command_interface.md",
+      "bytes": 10791,
+      "sha256": "b885d6acaa8d608271bf2f5871b45413c74fe475bc8c6956397c7272c3055ecc"
+    },
+    {
+      "path": "references/governing/pcp_core/contracts/record_contracts.md",
+      "bytes": 18105,
+      "sha256": "ae8b0f527ef0629b76afd1f71e53f674f537d94f1eb963e156e179ad727813aa"
+    },
+    {
+      "path": "references/governing/pcp_core/methods/catalog.md",
+      "bytes": 13713,
+      "sha256": "ffd4cd54f42a38af567311cba475eb808b43f395df6e19de1482e6fb7664de71"
+    },
+    {
+      "path": "references/governing/pcp_core/source/PCP_Protocol_Specification_1_0.md",
+      "bytes": 101894,
+      "sha256": "4d3b109b32a731cead9c0514acaf97e5c70af46be1b97f63e9a71a69e196d068"
+    },
+    {
+      "path": "references/governing/pcp_cryptography/source/PCP_Cryptography_Specification_1_0.md",
+      "bytes": 28264,
+      "sha256": "10198fee05565d476e9a2a3166fdedf0fcb8dae3981681d81d41ce69ff54cc23"
+    },
+    {
+      "path": "references/governing/pcp_engineering/source/PCP_Engineering_Specification_1_0.md",
+      "bytes": 31080,
+      "sha256": "127553ff7746ad99e4e840c54b36b87a319a24968a19f8f087afdba2773d6deb"
+    },
+    {
+      "path": "references/governing/pcp_mathematics/source/PCP_Mathematics_Specification_1_0.md",
+      "bytes": 21331,
+      "sha256": "c2142cf47b5a3b8033228a27307566df312a9f7e3325f875273406e410105e3e"
+    },
+    {
+      "path": "references/governing/pcp_science/source/PCP_Science_Specification_1_0.md",
+      "bytes": 36341,
+      "sha256": "25ded2533e66ceb37cfcddd373cdb8b9dcd9b48631e3680722b3d60933cefaf2"
+    },
+    {
+      "path": "references/proposed/pcp_quality_assurance/source/PCP_QA_Specification_1_0.md",
+      "bytes": 27281,
+      "sha256": "85a78e88b8efc8c00d46902eaeab0f301eeb19576894b1335173f49943c35766"
+    },
+    {
+      "path": "references/proposed/pcp_statistics/source/PCP_Statistics_Specification_1_0.md",
+      "bytes": 32803,
+      "sha256": "09626612dad65f30ceb53554d24f7ebc795f3955f8dac778e1a73c021eda240e"
+    },
+    {
+      "path": "references/source_snapshot.json",
+      "bytes": 4487,
+      "sha256": "3e05f9dfa40df1cf94281327ea4d0653eb69d99be7e98974d8d5d366252826ea"
+    },
+    {
+      "path": "skills/pcp-fidelity-audit/SKILL.md",
+      "bytes": 5379,
+      "sha256": "bf809fc09799e16407c5668b47576277d237230dd5dc475126a30d6a46704861"
+    },
+    {
+      "path": "skills/pcp-fidelity-audit/agents/openai.yaml",
+      "bytes": 314,
+      "sha256": "bdb8e3ad1fd8d04946939bfe6c6fb81103f183841478073e1d36278f1e75b1e7"
+    }
+  ]
+}

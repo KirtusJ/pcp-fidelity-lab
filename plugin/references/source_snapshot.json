@@ -1,0 +1,108 @@
+{
+  "format": "pcp-lab-source-index/1",
+  "status": "EXPERIMENTAL_NOT_GOVERNING",
+  "provenance": "User-uploaded 2026-11-10 release and proposed archives. SHA256 is local data identity, not origin authentication.",
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "component_id": "pcp.core",
+      "status": "GOVERNING",
+      "release": "PCP-2026-11-10-R13",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Protocol_Specification_1_0.md",
+      "plugin_path": "references/governing/pcp_core/source/PCP_Protocol_Specification_1_0.md",
+      "bytes": 101894,
+      "sha256": "4d3b109b32a731cead9c0514acaf97e5c70af46be1b97f63e9a71a69e196d068"
+    },
+    {
+      "component_id": "pcp.core",
+      "status": "GOVERNING",
+      "release": "PCP-2026-11-10-R13",
+      "role": "NORMATIVE_CONDITIONAL_ATTACHMENT",
+      "source_path": "contracts/record_contracts.md",
+      "plugin_path": "references/governing/pcp_core/contracts/record_contracts.md",
+      "bytes": 18105,
+      "sha256": "ae8b0f527ef0629b76afd1f71e53f674f537d94f1eb963e156e179ad727813aa"
+    },
+    {
+      "component_id": "pcp.core",
+      "status": "GOVERNING",
+      "release": "PCP-2026-11-10-R13",
+      "role": "NORMATIVE_CONDITIONAL_ATTACHMENT",
+      "source_path": "methods/catalog.md",
+      "plugin_path": "references/governing/pcp_core/methods/catalog.md",
+      "bytes": 13713,
+      "sha256": "ffd4cd54f42a38af567311cba475eb808b43f395df6e19de1482e6fb7664de71"
+    },
+    {
+      "component_id": "pcp.core",
+      "status": "GOVERNING",
+      "release": "PCP-2026-11-10-R13",
+      "role": "NORMATIVE_CONDITIONAL_ATTACHMENT",
+      "source_path": "contracts/command_interface.md",
+      "plugin_path": "references/governing/pcp_core/contracts/command_interface.md",
+      "bytes": 10791,
+      "sha256": "b885d6acaa8d608271bf2f5871b45413c74fe475bc8c6956397c7272c3055ecc"
+    },
+    {
+      "component_id": "pcp.mathematics",
+      "status": "GOVERNING",
+      "release": "PCPM-2026-11-10-R5",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Mathematics_Specification_1_0.md",
+      "plugin_path": "references/governing/pcp_mathematics/source/PCP_Mathematics_Specification_1_0.md",
+      "bytes": 21331,
+      "sha256": "c2142cf47b5a3b8033228a27307566df312a9f7e3325f875273406e410105e3e"
+    },
+    {
+      "component_id": "pcp.science",
+      "status": "GOVERNING",
+      "release": "PCPS-2026-11-10-R11",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Science_Specification_1_0.md",
+      "plugin_path": "references/governing/pcp_science/source/PCP_Science_Specification_1_0.md",
+      "bytes": 36341,
+      "sha256": "25ded2533e66ceb37cfcddd373cdb8b9dcd9b48631e3680722b3d60933cefaf2"
+    },
+    {
+      "component_id": "pcp.engineering",
+      "status": "GOVERNING",
+      "release": "PCPE-2026-11-10-R7",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Engineering_Specification_1_0.md",
+      "plugin_path": "references/governing/pcp_engineering/source/PCP_Engineering_Specification_1_0.md",
+      "bytes": 31080,
+      "sha256": "127553ff7746ad99e4e840c54b36b87a319a24968a19f8f087afdba2773d6deb"
+    },
+    {
+      "component_id": "pcp.cryptography",
+      "status": "GOVERNING",
+      "release": "PCPC-2026-11-10-R8",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Cryptography_Specification_1_0.md",
+      "plugin_path": "references/governing/pcp_cryptography/source/PCP_Cryptography_Specification_1_0.md",
+      "bytes": 28264,
+      "sha256": "10198fee05565d476e9a2a3166fdedf0fcb8dae3981681d81d41ce69ff54cc23"
+    },
+    {
+      "component_id": "pcp.statistics",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "release": "PCPST-2026-11-10-V1-INITIAL",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_Statistics_Specification_1_0.md",
+      "plugin_path": "references/proposed/pcp_statistics/source/PCP_Statistics_Specification_1_0.md",
+      "bytes": 32803,
+      "sha256": "09626612dad65f30ceb53554d24f7ebc795f3955f8dac778e1a73c021eda240e"
+    },
+    {
+      "component_id": "pcp.quality_assurance",
+      "status": "PROPOSED_NOT_ADOPTED",
+      "release": "PCPQA-2026-11-10-V1-INITIAL",
+      "role": "NORMATIVE_TEXT",
+      "source_path": "source/PCP_QA_Specification_1_0.md",
+      "plugin_path": "references/proposed/pcp_quality_assurance/source/PCP_QA_Specification_1_0.md",
+      "bytes": 27281,
+      "sha256": "85a78e88b8efc8c00d46902eaeab0f301eeb19576894b1335173f49943c35766"
+    }
+  ]
+}

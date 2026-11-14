@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "kirtusjustus@gmail.com",
+    "name": "Kirtus Justus"
+  },
+  "description": "Experimental, source-pinned audits of PCP evidence fidelity, director bias and delivery modes. Not an adopted PCP edition or runtime enforcement system.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Productivity",
+        "defaultPrompt": "Adversarially audit my PCP work against the exact source basis, preserve the original proposition, and identify what was really checked.",
+        "developerName": "Kirtus Justus",
+        "displayName": "PCP Fidelity Audit Lab",
+        "longDescription": "Research-only workflow to assess exact PCP source bases, cross-module meaning, ambiguous director instructions and limitations of ZIP, plugin and runtime assurance.",
+        "shortDescription": "Evidence-bound PCP reviews"
+      }
+    }
+  },
+  "name": "pcp-fidelity-audit-lab",
+  "version": "0.1.0"
+}

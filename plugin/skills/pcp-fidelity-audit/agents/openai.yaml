@@ -1,0 +1,6 @@
+interface:
+  display_name: "PCP Fidelity Audit Lab"
+  short_description: "Source-pinned PCP adversarial audits"
+  default_prompt: "Audit the PCP claim using the exact source packet; preserve my original proposition and report both supported and unsupported conclusions."
+policy:
+  allow_implicit_invocation: false
