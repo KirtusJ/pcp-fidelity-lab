@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
-      "bytes": 928,
-      "sha256": "8ba9e8e7c107df77fa426c4b4a16209a760f5e3f3ac0f8bcd2720879155e63dc"
+      "bytes": 927,
+      "sha256": "0436dd8fd0d7af1ba89fc9dd224d91fa73fae061b64da027441e4454f91fa0e4"
     },
     {
       "path": "README.md",
@@ -82,5 +82,6 @@
       "bytes": 314,
       "sha256": "bdb8e3ad1fd8d04946939bfe6c6fb81103f183841478073e1d36278f1e75b1e7"
     }
-  ]
+  ],
+  "account_archive_sha256": "53969ce3956c023a4de97cf3ca001d1c480d231ddddbc72c7e07565849feb47c"
 }

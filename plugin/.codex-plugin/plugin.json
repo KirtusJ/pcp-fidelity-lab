@@ -1,4 +1,9 @@
 {
+  "author": {
+    "email": "kirtusjustus@gmail.com",
+    "name": "Kirtus Justus"
+  },
+  "description": "Experimental, source-pinned audits of PCP evidence fidelity, director bias and delivery modes. Not an adopted PCP edition or runtime enforcement system.",
   "interface": {
     "capabilities": [],
     "category": "Productivity",
@@ -8,13 +13,8 @@
     "longDescription": "Research-only workflow to assess exact PCP source bases, cross-module meaning, ambiguous director instructions and limitations of ZIP, plugin and runtime assurance.",
     "shortDescription": "Evidence-bound PCP reviews"
   },
-  "name": "pcp-fidelity-audit-lab",
-  "version": "0.1.0",
-  "description": "Experimental, source-pinned audits of PCP evidence fidelity, director bias and delivery modes. Not an adopted PCP edition or runtime enforcement system.",
-  "author": {
-    "name": "Kirtus Justus",
-    "email": "kirtusjustus@gmail.com"
-  },
   "keywords": [],
-  "skills": "./skills"
+  "name": "pcp-fidelity-audit-lab",
+  "skills": "./skills",
+  "version": "0.1.0"
 }
