@@ -1,6 +1,10 @@
 {
   "name": "pcp-fidelity-audit-lab",
   "version": "0.1.0",
+  "canonical_zip": {
+    "bytes": 338024,
+    "sha256": "d4f4117131f1a9ed48af03166049f5db6aa5eb22dd0a460ccbcf2ee97e4c034b"
+  },
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
