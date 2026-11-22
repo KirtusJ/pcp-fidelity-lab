@@ -4,6 +4,8 @@ PCP Fidelity Audit Lab is an experimental skills plugin for reviewing how well a
 
 ## Source catalog
 
+The [catalogue](CATALOG.md) lists every entry in the repository and is checked against the tree.
+
 | Location | Contents |
 | --- | --- |
 | [Audit skill](plugin/skills/pcp-fidelity-audit/SKILL.md) | The user-invoked audit workflow and its limits. |
